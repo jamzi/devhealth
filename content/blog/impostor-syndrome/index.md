@@ -50,9 +50,5 @@ Slowly and steadily working on accepting the work you do and that many of your c
 
 Resources:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=eqhUHyVpAwE
-" target="_blank"><img src="http://img.youtube.com/vi/eqhUHyVpAwE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="380" height="280" border="10" /></a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=pOIM0i6PbOE
-" target="_blank"><img src="http://img.youtube.com/vi/pOIM0i6PbOE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="380" height="280" border="10" /></a>
+`youtube: https://www.youtube.com/watch?v=eqhUHyVpAwE`
+`youtube: https://www.youtube.com/watch?v=pOIM0i6PbOE`
