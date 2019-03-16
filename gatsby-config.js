@@ -4,6 +4,8 @@ module.exports = {
     author: `Janez Čadež`,
     description: `Blog about work-life balance, overcoming anxiety and boosting productivity.`,
     siteUrl: ``,
+    githubUsername: "jamzi",
+    githubRepo: "devhealth",
   },
   plugins: [
     {

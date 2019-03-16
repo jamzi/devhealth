@@ -9,11 +9,20 @@ import { rhythm, scale } from "../utils/typography"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+    const {
+      title,
+      githubUsername,
+      githubRepo,
+    } = this.props.data.site.siteMetadata
+    const { previous, next, slug } = this.props.pageContext
+
+    const editUrl = `https://github.com/${githubUsername}/${githubRepo}/edit/master/content/blog/${slug.slice(
+      1,
+      slug.length - 1
+    )}/index.md`
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={title}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
@@ -30,6 +39,13 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <footer>
+          <p>
+            <a href={editUrl} target="_blank" rel="noopener noreferrer">
+              Edit on GitHub
+            </a>
+          </p>
+        </footer>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -74,6 +90,8 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        githubUsername
+        githubRepo
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
