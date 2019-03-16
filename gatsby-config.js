@@ -3,7 +3,7 @@ module.exports = {
     title: `DevHealth🍏`,
     author: `Janez Čadež`,
     description: `Blog about work-life balance, overcoming anxiety and boosting productivity.`,
-    siteUrl: ``,
+    siteUrl: `https://devhealth.io`,
     githubUsername: "jamzi",
     githubRepo: "devhealth",
   },
@@ -62,7 +62,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `DevHealth blog`,
+        name: `DevHealth`,
         short_name: `DevHealth`,
         start_url: `/`,
         background_color: `#ffffff`,
