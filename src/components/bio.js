@@ -38,8 +38,9 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in
-              Ljubljana building useful things.
+              <strong>Refactor your life</strong>. Blog about work-life balance,
+              overcoming anxiety and boosting productivity. Written by{" "}
+              <strong>{author}</strong>.
             </p>
           </div>
         )
