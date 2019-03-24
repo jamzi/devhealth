@@ -18,4 +18,10 @@ With your help, we'll help developers overcome challenges like impostor syndrome
 
 ## Contributing
 
-We encourage you to contribute to DevHealth! You can propose a new topic or write your own article by opening a new issue [here](https://github.com/jamzi/devhealth/issues/new).
+We encourage you to contribute to DevHealth! You can propose a new topic by opening a new issue [here](https://github.com/jamzi/devhealth/issues/new). To get started with writing your own post on DevHealth, see the steps below:
+
+- Fork and clone the DevHealth repo
+- Install NPM packages
+- Run the blog locally: `yarn start` or `npm start` and visit `localhost:8000`
+- Create a new branch and add your blog post content to /content/{your-topic}
+- Submit a PR to the main repo.
