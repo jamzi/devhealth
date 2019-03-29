@@ -4,8 +4,6 @@ date: "2019-03-23T22:12:03.284Z"
 description: The never-ending race.
 ---
 
-# Burnout
-
 > Exhaustion of physical or emotional strength or motivation usually as a result of prolonged stress or frustration (Merriam-Webster).
 
 ## Why it happens
