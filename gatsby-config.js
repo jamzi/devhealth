@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://devhealth.io`,
     githubUsername: "jamzi",
     githubRepo: "devhealth",
+    twitterUsername: "jamziSLO",
   },
   plugins: [
     {

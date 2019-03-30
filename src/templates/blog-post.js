@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import SocialShare from "../components/social/socialShare"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
@@ -13,6 +14,7 @@ class BlogPostTemplate extends React.Component {
       title,
       githubUsername,
       githubRepo,
+      twitterUsername,
     } = this.props.data.site.siteMetadata
     const { previous, next, slug } = this.props.pageContext
 
@@ -38,6 +40,11 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+        <SocialShare
+          post={post}
+          slug={this.props.pageContext.slug}
+          twitterUsername={twitterUsername}
+        />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <footer>
           <p>
@@ -92,6 +99,7 @@ export const pageQuery = graphql`
         author
         githubUsername
         githubRepo
+        twitterUsername
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
