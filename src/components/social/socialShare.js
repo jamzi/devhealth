@@ -70,8 +70,8 @@ const ShareLink = Styled.a`
 const Icon = Styled.svg`
   flex: none;
   transition: fill 0.25s;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
 
   ${ShareLink}:hover & {
     fill: hsla(0,0%,0%,0.59);
