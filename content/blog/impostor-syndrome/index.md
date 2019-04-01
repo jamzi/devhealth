@@ -1,7 +1,7 @@
 ---
 title: Impostor syndrome
 date: "2019-03-14T22:12:03.284Z"
-description: When will they find out that I don't belong here.
+description: "When will they find out that I don't belong here?"
 ---
 
 > Impostor syndrome (also known as impostor phenomenon, impostorism, fraud syndrome or the impostor experience) is a psychological pattern in which an individual doubts their accomplishments and has a persistent internalized fear of being exposed as a "fraud" (Wikipedia).
