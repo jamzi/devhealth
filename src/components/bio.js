@@ -33,7 +33,7 @@ function Bio() {
             <p>
               <strong>Refactor your life</strong>. Blog about work-life balance,
               overcoming anxiety and boosting productivity. Written by{" "}
-              <strong>{author}</strong>.
+              <strong>{author}</strong>. Proofread by Tina.
             </p>
           </div>
         )
