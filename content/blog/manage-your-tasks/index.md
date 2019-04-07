@@ -16,6 +16,8 @@ The gist of the system is that it encourages you to put everything you want to g
 
 You can store your project and tasks in either a physical notebook, Excel sheet or specialized software like Todoist. Put it into the system and don't worry about it.
 
+![To-do list](./to-do-list.jpg)
+
 ### Organizing the list
 
 - Every task you think of or want to do would go into the general list of tasks, called Inbox. Make the tasks actionable, instead of naming tasks like: birthday cake, name them: buy a birthday cake for Jane.
@@ -30,7 +32,9 @@ You can store your project and tasks in either a physical notebook, Excel sheet 
 
 Once you've prioritized the list, plan you days worth of tasks the night before or in the morning of the day. I plan for around 5-6 tasks a day, usually about 5 for work and 1-2 for personal projects.
 
-- Start with the most important and urgent one. This way you'll avoid getting stuck on irrelevant tasks and you'll take advantage of the daily brain capacity. A great book about this topic would be Eat That Frog! from Brian Tracy.
+**Start with the most important and urgent one. This way you'll avoid getting stuck on irrelevant tasks and you'll take advantage of the daily brain capacity.**
+
+A great book about this topic would be Eat That Frog! from Brian Tracy.
 
 ### Weekly review
 
@@ -43,6 +47,8 @@ If the task doesn't have a clear action to take, either remove them from the lis
 If you use another ticketing system for your work tasks, something like Jira, Asana or Trello, you can integrate those with the task software you are using.
 
 If it doesn't offer an integration, just copy the names of tasks to the todo list. It's a bit of annoyance, but it forces you to think more about the ticket. Jumping prematurely into the ticket without thinking about it and getting stuck in the middle of it is usually a bigger problem.
+
+![Planning](./planning.jpg)
 
 If you need to report your hours, you are a freelancer or your employer requires it, you can just copy the completed tasks from your to-do list.
 
@@ -59,3 +65,4 @@ Let me know if you are using a similar tasks system. What are the biggest challe
 - https://hamberg.no/gtd/ (GTD in 15 minutes)
 - https://www.amazon.com/Eat-That-Frog-Great-Procrastinating-ebook/dp/B001AFF25W (Eat That Frog!, Brian Tracy)
 - https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity-ebook/dp/B00KWG9M2E (Getting Things Done: The Art of Stress-Free Productivity, David Allen)
+- http://todoist.com (Todoist software)
