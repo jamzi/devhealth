@@ -1,6 +1,6 @@
 ---
 title: Task management
-date: "2019-04-8T22:12:03.284Z"
+date: "2019-04-08T22:12:03.284Z"
 description: Declutter your mind.
 ---
 
