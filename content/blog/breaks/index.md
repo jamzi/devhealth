@@ -26,15 +26,15 @@ Walking, talking to coworkers or playing a video game can help you relax, and th
 
 A great way to relax, socialize and de-stress during the workday is to take a lunch break. Almost all employers allow a 20 to 30 minutes long break for lunch.
 
-In some Asian countries, it's common to take an after lunch nap. This is a practice among factory and office workers. You can notice people sleeping on public transportation. The napping culture and the benefits of restored energy after the short nap can be seen in some high tech companies as they provide sleeping pods or beds for employees.
+In some Asian countries, it's common to take an after lunch nap. This is a practice among both factory and office workers. You can also notice people sleeping on public transportation. The napping culture and the benefits of restored energy after the short nap can be seen in some high tech companies as they provide sleeping pods or beds for employees.
 
 ### Methods
 
 - Take a break from work at least every 2 hours. Move away from the workplace and walk or stretch out. Get some water, talk to the colleagues or take a short walk.
 
-There are some well-known and researched time management methods that you can apply during the day, the most recognized is the Pomodoro technique.
+There are some well-known and researched time management methods that you can apply during the day. The most recognized is the Pomodoro technique.
 
-> The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Each range is known as a Pomodoro, from the Italian word for 'tomato,' after the tomato-shaped kitchen timer that Cirillo used as a university student. (Wikipedia)
+> The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Each range is known as a Pomodoro, from the Italian word for 'tomato,' after the tomato-shaped kitchen timer that Cirillo used as a university student (Wikipedia).
 
 ![Timer](./timer.jpg)
 
