@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `DevHealth🍏`,
+    title: `DevHealth`,
     author: `Janez Čadež`,
-    description: `Blog about work-life balance, overcoming anxiety and boosting productivity.`,
+    description: `Improving mental health, avoiding burnout and practicing self-care.`,
     siteUrl: `https://devhealth.io`,
     githubUsername: "jamzi",
     githubRepo: "devhealth",
@@ -80,6 +80,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
   ],
 }

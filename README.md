@@ -1,6 +1,7 @@
 <div align="center">
-  <h1>DevHealth 🍏</h1>
-  <strong>Blog about work-life balance, overcoming anxiety and boosting productivity.</strong>
+  <h1>DevHealth - A blog by Janez Cadez</h1>
+  <strong>Improve mental health, avoid burnout and  practice self-care.
+  </strong>
 </div>
 <br/>
 

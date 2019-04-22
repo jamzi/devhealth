@@ -29,8 +29,8 @@ function Bio() {
               }}
             />
             <p>
-              <strong>Refactor your life</strong>. Blog about work-life balance,
-              overcoming anxiety and boosting productivity. Written by{" "}
+              <strong>Refactor your life</strong>. Improve mental health, avoid
+              burnout and practice self-care. Written by{" "}
               <strong>{author}</strong>. Proofread by{" "}
               <strong>Tina Petan</strong>.
             </p>
