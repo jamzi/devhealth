@@ -1,6 +1,6 @@
 <div align="center">
   <h1>DevHealth - A blog by Janez Cadez</h1>
-  <strong>Improve mental health, avoid burnout and  practice self-care.
+  <strong>Improve mental health, avoid burnout and practise self-care.
   </strong>
 </div>
 <br/>
