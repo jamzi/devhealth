@@ -12,8 +12,9 @@ Sleep is vital for us, it lets us function. Lack of sleep brings fatigue, less j
 
 ### Circadian rhythm
 
-A 24-hour internal clock, also known as sleep/wake cycle. It regulates sleepiness and wakeness and it can vary a bit from person to person. For most adults, there is an noticable drop 
+A 24-hour internal clock, also known as sleep/wake cycle. It regulates sleepiness and wakeness and it can vary a bit from person to person. For most adults, there is an noticable drop in energy from 1pm to 3pm and at night from 2am to 4am.
 
+Outside factors like lightness and darkness can also impact on the internal clock. The brain sends a signal to the body to release melatonin which makes you.
 ### Sleep deprivation
 
 ### Conclusion
