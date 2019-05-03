@@ -22,6 +22,8 @@ Outside factors like lightness and darkness can also impact on the internal cloc
 
 It's interesting because human beings are the only species that deprive themselves of sleep and we are not wired to compensate for the lack of sleep. It's not like a bank. We can't accumulate a debt and hope to pay it off on the weekend.
 
+![Airport sleep](./airport-sleep.jpg)
+
 - If you're getting 6 hours of sleep or less, you get 30% more exhausted
 
 - You are irritable and your brain performance gets worsened
@@ -41,6 +43,8 @@ Next, are tips that can help you with nights sleep.
 - **Avoid screen time before bed**. It's known that blue light, emitted from mobile phones can postpone melatonin production, which is needed for the body to feel sleepy. One hour of screen time can postpone sleepiness for up to 3 hours.
 
 - **Cool, clean and quiet bedroom**. Your bedroom temperature for sleep should be between 60 and 67 degrees (15-20 degrees Celsius). Eliminate any noises that can disturb your sleep and blackout any sources of light from outside lamps or electronic devices. 
+
+![Bedroom](./bedroom.jpg)
 
 - **Eat 2 to 3 hours before bed**. This way, you won't be too hungry or too full going to bed. 
 
