@@ -1,54 +1,70 @@
 ---
 title: Sleep
-date: "2019-04-27T17:12:03.284Z"
+date: "2019-05-08T17:12:03.284Z"
 description: I'll sleep when I'm dead.
 ---
 
 > A condition of body and mind which typically recurs for several hours every night, in which the nervous system is inactive, the eyes closed, the postural muscles relaxed, and consciousness practically suspended (Oxford dictionary).
 
-Studies show that 1 out of every 2 adults in America is not getting the recommended hours of sleep. 1 out of 3 people is trying to survive on 6 hours or less. Adults need from 7-9 hours of sleep per day, depends on the age and the average American is sleeping 6 hours and 31 minutes during the week, this used to be 7.9 hours in 1942.
+Studies have shown that 1 out of every 2 adults in America is not getting the recommended hours of sleep. 1 out of 3 people is trying to survive on 6 hours or less.
 
-There are numbers of important processes that happen during the night, like muscle repair and grow as well as body cleanse. There is a sewage system in the brain that cleanses the brain of metabolic toxins that we accumulated during the day.
+Adults need from 7 to 9 hours of sleep per day and the average American is sleeping **6.5 hours** during the week. This used to be **7.9 hours** in 1942.
+
+There are numbers of important processes happening during the night like muscle repair and grow as well as a body cleanse. There is a sewage system in the brain cleaning the brain of metabolic toxins that we accumulated during the day.
 
 > Like humans, most animals sleep for at least a few hours. Dolphins are interesting because they are conscious breathers and in order to not drown, they need to go to the surface and breathe. They float and shut half of its brain during sleep and keep the other half active to keep the basic body functions active.
 
-### Circadian rhythm
+`youtube: https://www.youtube.com/watch?v=1ZSzI5mHwS8`
 
-A 24 hour internal clock, a hormone that regulates your sleepiness and wakefulness. It can vary a bit from person to person, but for most adults, there is a noticeable drop in energy from 1 pm to 3 pm and at night from 2 am to 4 am.
+Let's explore what affects sleep.
 
-Outside factors like lightness and darkness can also impact on the internal clock. The brain sends a signal to the body to release melatonin which makes you.
+### What is a circadian rhythm?
 
-### Sleep deprivation
+It's a 24-hour internal clock, a regulator for sleepiness and wakefulness. When we feel the most energized can vary a bit from person to person, but for most adults, there is a noticeable drop in energy from 1 to 3 in the afternoon and from 2 to 4 at night.
 
-Human beings are the only species that deprive themselves of sleep and we are not wired to compensate for the lack of sleep. It's not like a bank. We can't accumulate a debt and hope to pay it off on the weekend.
+Outside factors like lightness and darkness can also have an impact on the internal clock. The brain sends a signal to the body to release melatonin which makes you sleepy.
+
+### Effects of sleep deprivation
+
+Human beings are the only species that deprive themselves of sleep and we are not wired to compensate for the lack of sleep. Sleep is not like a bank. We can't accumulate a debt and hope to pay it off on the weekend.
 
 ![Airport sleep](./airport-sleep.jpg)
 
-- You are irritable, exhausted and brain performance gets worsened.
+Effects of sleep deprivation can show:
 
-- Your muscle strength gets lower, as do your jump height and your running speed.
+- **Worsened brain performance**. Getting less than 6 hours of sleep will drop the time to physical exhaustion by 30%.
 
-- Men who sleep only 5 to 6 hours a night will have a level of testosterone 6-10 years their senior.
+- **Lower muscle strength**. The less sleep you have less muscle strength, as well as jump height and running speed decrease.
 
-Lack of sleep is also connected to diseases, one of them is Alzheimer's disease and drowsy driving kills more people on the roads than alcohol or drugs combined.
+- **Lack of testesterone**. Men who sleep only 5 to 6 hours a night will have a level of testosterone 6-10 years their senior.
 
-### Improve sleep
+Long term lack of sleep is also connected to diseases, one of them is Alzheimer's disease. This may come as a shocker, but drowsy, sleep deprived driving kills more people on the roads than alcohol or drugs combined.
 
-Here are some tips that can help you with night's sleep.
+### How to improve sleep?
 
-- **Keep a regular sleep schedule**. Go to bed at the same time every day, try to do it for weekends too. This way, you'll train your body to fall asleep at the same time.
+Here are some tips to help you with night's sleep:
 
-- **Avoid screen time before bed**. It's known that blue light, emitted from mobile phones can postpone melatonin production, which is needed for the body to feel sleepy. One hour of screen time can postpone sleepiness for up to 3 hours.
+- **Keep a regular sleep schedule**. Go to bed at the same time every day, try to do it for weekends too. This way, you'll train the body to fall asleep at the same time.
 
-- **Cool, clean and quiet bedroom**. Your bedroom temperature for sleep should be between 60 and 67 degrees (15 to 20 degrees Celsius). Eliminate any noises that can disturb your sleep and blackout any sources of light from outside lamps or electronic devices. 
+- **Avoid screen time before bed**. Blue light, emitted from mobile phones can postpone melatonin production, which is needed for the body to feel sleepy. One hour of screen time can postpone sleepiness for up to 3 hours.
+
+- **Cool, clean and quiet bedroom**. Bedroom temperature should be between 60 and 67 degrees (15 to 20 degrees Celsius). Eliminate any noises that can disturb sleep and blackout any sources of light from outside lamps or electronic devices.
 
 - **Eat 2 to 3 hours before bed**. This way, you won't be too hungry or too full going to bed.
 
 ![Bedroom](./bedroom.jpg)
 
+### "There is an app for that."
+
+To measure the quality of your sleep, I recommend downloading an app called [Sleep as Android](https://play.google.com/store/apps/details?id=com.urbandroid.sleep), available for Android.
+
+It allows you to track sleep and use an ability to set up "smart" alarms, waking you up at the end of the sleep cycle. There are similar apps for iOS as well.
+
+![Sleep as Android 1](./sleep-as-android.png)
+
 ### Conclusion
 
-Sleep is really important for optimal health and well-being. If you are not getting as much sleep as you would like, you can try the tips above. 
+Sleep is really important for optimal health and well-being. If you would like to get more sleep, try some of the tips above.
 
 **Remember, less sleep doesn't mean more productivity**.
 
@@ -57,6 +73,6 @@ Do you have problems falling asleep?
 ### Resources
 
 `youtube: https://www.youtube.com/watch?v=pwaWilO_Pig`
-`youtube: https://www.youtube.com/watch?v=1ZSzI5mHwS8`
+
 - https://www.sleepfoundation.org/ (National Sleep Foundation)
 - https://www.sleep.org/ (Sleep.org by National Sleep Foundation)
