@@ -70,7 +70,7 @@ Sleep is significant for optimal health and well-being. If you would like to get
 
 **And remember, less sleep doesn't mean more productivity**.
 
-Do you have problems falling asleep? Are you using a gadget or a technique to fall asleep easier? I look forward hearing your comments.
+Do you have problems falling asleep? Are you using a technique or a gadget to fall asleep easier? I look forward to hearing your comments.
 
 ### Resources
 
