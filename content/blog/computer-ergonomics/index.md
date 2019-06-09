@@ -32,8 +32,8 @@ Sit-stand workstations are becoming really popular, especially in the tech world
 
 ### Other equipment
 
-- Mouse. If you have large hands, then choose a bigger mouse. There are also some specially designed ergonomic mouses like [Logitech MX Vertical](https://www.logitech.com/en-us/product/mx-vertical-ergonomic-mouse).
-- Apps. There are apps like Stretchly that remind you to take breaks.
+- **Mouse**. If you have large hands, then choose a bigger mouse. There are also some specially designed ergonomic mouses like [Logitech MX Vertical](https://www.logitech.com/en-us/product/mx-vertical-ergonomic-mouse).
+- **Apps**. There are apps like Stretchly that remind you to take breaks.
 
 ### Conclusion
 
