@@ -55,7 +55,8 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         },
         {
           name: `og:image`,
-          content: image,
+          content:
+            "https://thumbs.dreamstime.com/z/tv-test-image-card-rainbow-multi-color-bars-geometric-signals-retro-hardware-s-minimal-pop-art-print-suitable-89603635.jpg",
         },
         {
           name: `twitter:card`,
@@ -75,7 +76,8 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         },
         {
           name: `twitter:image`,
-          content: image,
+          content:
+            "https://thumbs.dreamstime.com/z/tv-test-image-card-rainbow-multi-color-bars-geometric-signals-retro-hardware-s-minimal-pop-art-print-suitable-89603635.jpg",
         },
       ]
         .concat(
