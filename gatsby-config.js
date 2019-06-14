@@ -7,6 +7,7 @@ module.exports = {
     githubUsername: "jamzi",
     githubRepo: "devhealth",
     twitterUsername: "jamziSLO",
+    image: "/images/devhealth.png",
   },
   plugins: [
     {
