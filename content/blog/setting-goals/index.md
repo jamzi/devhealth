@@ -1,6 +1,6 @@
 ---
 title: Goal setting with OKRs
-date: "2019-06-14T12:12:03.284Z"
+date: "2019-06-18T12:12:03.284Z"
 description: Ideas don’t make you rich. The correct execution of ideas does.
 ---
 
