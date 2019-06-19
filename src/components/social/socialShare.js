@@ -47,7 +47,12 @@ const SocialShare = ({ post, slug, twitterUsername }) => {
     <SocialShareWrapper>
       <div>Share this post</div>
       {getSocialLinks({ post, slug, twitterUsername }).map(social => (
-        <ShareLink key={social.type} href={social.link}>
+        <ShareLink
+          key={social.type}
+          href={social.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {social.icon}
         </ShareLink>
       ))}
