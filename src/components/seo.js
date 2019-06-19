@@ -55,20 +55,24 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `summary_large_image`,
         },
         {
-          name: `twitter:image`,
-          content: `https://static1.squarespace.com/static/5714f51d3c44d87a6ed73e7d/t/5739f28b2fe131630fd1967e/1463415449472/test.kitten`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          name: `twitter:description`,
+          content: metaDescription,
         },
         {
           name: `twitter:title`,
           content: title,
         },
         {
-          name: `twitter:description`,
-          content: metaDescription,
+          name: `twitter:site`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:image`,
+          content: `https://static1.squarespace.com/static/5714f51d3c44d87a6ed73e7d/t/5739f28b2fe131630fd1967e/1463415449472/test.kitten`,
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.author,
         },
       ]
         .concat(
