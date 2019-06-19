@@ -2,6 +2,7 @@
 title: Computer ergonomics
 date: "2019-06-09T12:12:03.284Z"
 description: Don't slouch.
+featuredImage: ./back-pain.jpg
 ---
 
 > The definition of computer ergonomics is the practice of fitting the set up of the computer and the workspace to fit the user and the user's work needs in order to minimize physical stress on the computer user (Your dictionary).

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, meta, keywords, title, featuredImage }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -68,7 +68,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:image`,
-          content: `https://static1.squarespace.com/static/5714f51d3c44d87a6ed73e7d/t/5739f28b2fe131630fd1967e/1463415449472/test.kitten`,
+          content: `${
+            featuredImage
+              ? window.location.host + featuredImage.childImageSharp.fluid.src
+              : ""
+          }`,
         },
         {
           name: `twitter:creator`,
