@@ -6,9 +6,9 @@ description: Get more done in less time.
 
 > "One way to boost our will power and focus is to manage our distractions instead of letting them manage us" (Daniel Goleman).
 
-We get constantly triggered by the stimulus of distractions such as notifications, advertisements, and noises. UC Irvine study found that a typical office worker gets interrupted every 11 minutes – yet it takes an average of 25 minutes to return to the original task.
+We constantly get triggered by the stimulus of distractions such as notifications, advertisements, and noises. UC Irvine study found that a typical office worker gets interrupted every 11 minutes – yet it takes an average of 25 minutes to return to the original task.
 
-To evaluate the importance of these stimuli, ask yourself if it's crucial and do you really need to be bothered. If the answer is negative, it can wait until the pause.
+To evaluate the importance of these stimuli, ask yourself if it's crucial and if you really need to be bothered. If the answer is negative, it can wait until the pause.
 
 ![Research paper vs internet](./research-paper-vs-internet-comic.jpg)
 
@@ -16,19 +16,19 @@ To evaluate the importance of these stimuli, ask yourself if it's crucial and do
 
 ### Workplace distractions
 
-Let's see what distractions are most common in a typical work environment and how can we tame them.
+Let's see what distractions are most common in a typical work environment and how we can tame them.
 
-- **Noise**. Working in an open office plan is connected with high decibel levels. Having a good pair of headphones, preferably noise-canceling one, will help out tremendously. Having headphones on is a common sign that you are focusing on the work and don't want to be bothered. Asking coworkers questions or receiving feedback is essential, but it should be done in a non-blocking matter.
+- **Noise**. Working in an open office plan is connected with high decibel levels. Having a good pair of headphones, preferably noise-canceling ones, will help tremendously. Having headphones on is a common sign that you are focusing on the work and don't want to be bothered. Although asking coworkers questions or receiving feedback is essential, it should be done in a non-blocking matter.
 - **Smartphone**. Unless you are a mobile app developer, smartphone usage during work can be easily avoided. Leave it in the backpack or turn on Do Not Disturb mode. Constantly checking social media, messages or receiving calls will kill a line of thoughts and hurt productivity.
-- **Shallow work**. Prioritize the work and try to do the hardest thing first when you still have energy and mental focus. Check email/instant messages in batches when you have a pause. Try out some time management methods like the Pomodoro technique, where you work without distractions for 25 minutes and have a 5-minute break. Learn more about breaks in a dedicated [article](https://devhealth.io/breaks/).
-- **Clutter**. Having a clean office and desk with make focusing on work much easier.
-- **Hunger**. Brain cells require twice as much energy as the other body parts. Make sure you are not starving when beginning work, otherwise the mind can be easily distracted.
+- **Shallow work**. Prioritize the work and try to do the hardest thing first when you still have energy and mental focus. Check email or instant messages in batches when you have a pause. Try out some time management methods like the Pomodoro technique, where you work without distractions for 25 minutes and have a 5-minute break. Learn more about the topic in [my article about breaks](https://devhealth.io/breaks/).
+- **Clutter**. Having a clean office and desk will make focusing on work much easier.
+- **Hunger**. Brain cells require twice as much energy as other body parts. Make sure you are not starving when beginning work, otherwise the mind can easily be distracted.
 
 ### Do not disturb mode
 
 #### Windows
 
-Focus assist is a built-in feature of Windows 10, access it under Settings - System - Focus Assist. It allows you to set the level of DnD (Off, Priority only or Alarms only).
+Focus assist is a built-in feature of Windows 10. Access it under Settings - System - Focus Assist. It allows you to set the level of DnD (Off, Priority only or Alarms only).
 
 One useful feature is also to define an automatic rule where a time period for focused work can be fine-tuned.
 
@@ -44,18 +44,18 @@ Toggle DnD mode on-demand in the Notifications panel on the right.
 
 #### Instant messaging apps
 
-Slack or similar chat tools offer an ability to turn on DnD mode and mute unimportant channels.
+Slack or similar chat tools offer the ability to turn on DnD mode and mute unimportant channels.
 
 #### Slack
 
 Turn on DnD mode by clicking on the bell icon. There's also an option to set a DnD schedule.
-Channels that are not crucial to your work like "random" or "food" can be muted and will not show a notification.
+Channels that are not crucial to your work, like "random" or "food", can be muted and will not show notifications.
 
 > Nomophobia or no-mobile-phone phobia is a fear of being without access to a working cell phone.
 
 ### Social media
 
-Social media is designed in the way that it makes so compelling to keep on scrolling the feed as you get dopamine shots for a reward. Limit social media usage to a certain time of the day and enjoy more productive days.
+Social media is designed in the way that makes it so compelling to keep on scrolling the feed as you are getting dopamine shots for a reward. Limit social media usage to a certain time of the day and enjoy more productive days.
 
 #### Apps
 
