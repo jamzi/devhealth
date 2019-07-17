@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Signup from "../components/signup"
 import SocialShare from "../components/social/socialShare"
 import { rhythm, scale } from "../utils/typography"
 
@@ -84,6 +85,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <Signup />
       </Layout>
     )
   }
