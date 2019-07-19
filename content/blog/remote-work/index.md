@@ -6,7 +6,7 @@ description: Pants optional.
 
 > Telecommuting or remote work is a work arrangement in which employees do not commute or travel (e.g. by bus or car) to a central place of work, such as an office building, warehouse, or store (Wikipedia).
 
-There are two types of remote work, one is settling down in a place and the other is to travel, being a "digital nomad".
+There are two types of remote work: one is settling down in a place and the other is to travel, being a "digital nomad".
 
 ![Beach lady laptop](./beach-lady-laptop.jpg)
 
@@ -16,31 +16,31 @@ We'll explore the benefits and drawbacks of being a remote worker. You'll also f
 
 ### Benefits
 
-Studies along remote workers show that the benefits of remote work outweigh the negatives. The biggest perk workers see when working from home is the **saved commute time**.
+Studies along remote workers show that the benefits of remote work outweigh the drawbacks. The biggest perk workers see, when working from home, is the **saved commute time**.
 
-**Spend more time with family and friends** as well as having an option to work from any location.
+Remote work offers an option of **spending more time with family and friends** as well as working from any location.
 
-By eliminating [distractions](https://devhealth.io/distractions/) you can also produce **deep work and improve productivity**.
+By eliminating [distractions](https://devhealth.io/distractions/), you can also produce **deep work and improve productivity**.
 
 ### Drawbacks
 
-One of the drawbacks of telecommuting is the **lack of contact with the coworkers**, as you are isolated in the environment. It's crucial to have clear work-life boundaries and enjoy social activities in the free time.
+One of the drawbacks of telecommuting is the **lack of contact with the coworkers**, as you are isolated in the environment. It's crucial to have clear work-life boundaries and enjoy social activities in free time.
 
-**Unplugging from work** is another struggle of remote workers, especially if you work from home office. Having a separate workspace can help remedy this and establish a "home office" feeling. Once you are out of the office, your workday is finished.
+**Unplugging from work** is another struggle of remote workers, especially if working from home office. Having a separate workspace can help remedy this and establish a "home office" feeling. Once you are out of the office, your workday is finished.
 
-You need **discipline** to resist entertaining in the distractions that exist in the house like watching TV, playing games or doing chores. Maybe this is only me, but I love procrastinating with cleaning instead of doing the work.
+You need the **discipline** to resist entertaining in the distractions that exist in the house like watching TV, playing games or doing chores. Maybe this is only me, but I love procrastinating with cleaning instead of doing the work.
 
 ### Tips & Tricks
 
 #### Communication
 
-As a remote worker, you don't share the office with coworkers and you need to be able to communicate well. Make sure all the communication is transparent and documented in the chat tools. Avoid communicating in private messages if the topic concerns the whole team.
+As a remote worker, you don't share the office with coworkers and because of that, you need to communicate well. In order to achieve that, you should keep the communication transparent and avoid private messages if the topic concerns the whole team.
 
 Remember, overcommunicating is always better than making assumptions. If you are a team leader, remember to appreciate and emphasize the good work of your colleagues.
 
 > To simulate "watercooler chat" in the physical offices, some remote companies organize video conference calls called "virtual coffee breaks", where you discuss non-job related topics.
 
-Many teams appreciate bursty communication, this is a period where there is back and forth, synchronous communication. This can be difficult with remote teams in different timezones, so be adaptable. Quick daily or weekly syncs can help the team remain focused and on track.
+Many teams appreciate "bursty communication", which is a period where there is back and forth, synchronous communication. This can be difficult with remote teams in different timezones, so be adaptable. Quick daily or weekly syncs can help the team remain focused and on track.
 
 If you share home with family members, make sure to communicate your working hours and establish a schedule. And if you don't, your kids will be featured on national TV.
 
@@ -54,17 +54,17 @@ Because face to face communication with non-verbal cues is much better than just
 
 ### Finding remote work
 
-There are two types of remote work companies, a fully remote company and a company that accepts remote workers. It's much easier to be in a fully remote company because all the company values and processes are geared towards location independent workers.
+There are two types of remote work companies: a fully remote company and a company that accepts remote workers. It's much easier to be in a fully remote company, because all the company values and processes are geared towards location independent workers.
 
-If you have an existing job, feel free to can ask your employer for a remote work arrangement.
+If you have an existing job, feel free to ask your employer for a remote work arrangement.
 
-There are some well-known companies in the tech scene that are either fully remote or allow remote workers. The most known ones are Automattic (the company behind Wordpress), GitLab, Buffer, Trello, Stripe, etc. Find remote job offers on the [We Work Remotely job board](https://weworkremotely.com).
+There are some well-known companies in the tech scene that are either fully remote or allow remote workers. The most known ones are Automattic (the company behind Wordpress), GitLab, Buffer, Trello, Stripe, etc. You can find remote job offers on the [We Work Remotely job board](https://weworkremotely.com).
 
-To get a sense of how to work remotely while still keeping day job, you can try participating in an open-source project.
+To get a sense of how to work remotely while still keeping a day job, you can try participating in an open-source project.
 
 ### Conclusion
 
-Remote work is not a trend — it’s here to stay. Its benefits outperform the negatives. There are smart people everywhere in the world and it makes sense for companies as they get a larger pool of candidates.
+As Buffer report says, "remote work is not a trend — it’s here to stay". Its advantages outperform the negatives. Also, to get the best people for the job, companies need to look outside their headquarters city.
 
 ### Resources
 
