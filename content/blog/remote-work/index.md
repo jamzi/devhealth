@@ -1,6 +1,6 @@
 ---
 title: The future of work is remote
-date: "2019-07-21T12:12:03.284Z"
+date: "2019-07-20T08:12:03.284Z"
 description: Pants optional.
 ---
 
