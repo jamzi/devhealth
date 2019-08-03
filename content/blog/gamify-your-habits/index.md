@@ -13,29 +13,27 @@ To excel at forming habits, you need to train your **willpower**, which is like 
 
 ### The Marshmallow Experiment
 
-Willpower and successful habit performance are tightly coupled. Stanford performed a [Marshallow experiment](https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment), where they offered children a choice of a small reward immediately in the form of a marshmallow or multiple rewards if they waited for a short period. Only a few children managed to resist the urge of instant gratification and delicious marshmallows.
+Willpower and successful habit performance are tightly coupled. Stanford performed a [Marshallow experiment](https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment), where they offered children a choice of a small reward immediately in the form of a marshmallow or multiple rewards if they waited for a short period of time. Only a few children managed to resist the urge of instant gratification and delicious marshmallows.
 
-In the follow-up study on these children, they found that the ones that had better willpower to wait had better success in education and other life outcomes.
+In the follow-up study on these children, they found that the ones that managed to wait for the second marshmallow had better success in education and other life outcomes.
 
 `youtube: https://www.youtube.com/watch?v=QX_oy9614HQ`
 
 ### Habit Formation
 
-To consistently perform a habit, it should have three main ingredients. If your habit is going to the gym, it would contain:
+Successful habit contains three main ingredients. Our example habit will be going to the gym:
 
-- **Cue**. The cue for going to the gym could be preparing the gym equipment in the evening so you are ready to go to a gym in the morning.
-- **Routine**. The routing for the gym would be going to the gym.
-- **Reward**. The really important thing if you want to keep up with habits is to reward yourself after a successful routine. In our gym example, this could be eating one piece of chocolate.
+- **Cue**. The cue for going to the gym could be preparing the gym equipment in the evening so you are ready to go to a gym the next day.
+- **Routine**. The routine for the gym would be going to the gym.
+- **Reward**. It's important to reward yourself for the hard work you did. In our gym example, a reward could be to eat a piece of chocolate.
 
-One trick I learned from watching YouTube videos from Matt D'Avella is to implement a "two-day rule". You shouldn't break the habit for more than **two days in a row** (like going to the gym, meditating, reading a book).
+One trick I learned from watching YouTube videos from [Matt D'Avella](https://www.youtube.com/user/blackboxfilmcompany) is to implement a "two-day rule". You shouldn't break the habit for more than **two days in a row** (such as going to the gym, meditating, reading a book).
 
 ## Gamification and habit formation
 
-TODO: read about role-playing games and gamification, improve this (https://en.wikipedia.org/wiki/Role-playing_game, https://en.wikipedia.org/wiki/Gamification)
+To understand the concept of gamification, let's look at the video-game industry. Games, especially role-playing ones, often have elements such as avatar, points, badges, and quests to make the game more interesting and improve user engagement.
 
-To understand the concepts of gamification, it's best to look at the video-game industry. A lot of games have an element of role-playing, where you choose a character and build it over time. You can improve it by managing its health, buying better equipment and performing quests.
-
-These games can be really fun to play and why not take the same character-building concept and apply it to real-life. And the app we are going to take a look at next does just that.
+Playing these games can be unquestionably fun and gamification takes the same elements and applies them to the real-life scenarios. And the app we are going to take a look at next does just that.
 
 ### Habitica
 
@@ -45,23 +43,23 @@ These games can be really fun to play and why not take the same character-buildi
 
 In the app, the main domains are habits, dailies, todos, and rewards:
 
-- **Habits**. You would list the habits you want to establish here. They can be positive or negative and by completing positive habits, you gain in-app gold and experience and lose it by doing the negative habit.
+- **Habits**. You can list the habits you want to establish here. They can be positive or negative and by completing positive habits, you gain in-app gold and experience. You also lose health by doing a negative habit.
 
 ![Habitica Habits UI](./habitica-habits.jpg)
 
-- **Dailies**. These are recurring tasks you do every day, week or month. You have fine-grained controls about when to do these. You lose in-app health by not completing dailies. If you lose too much health you virtually die and lose a level.
+- **Dailies**. These are recurring tasks you do every day, week or month. The app offers fine-grained controls to set up dailies and you lose in-app health by failing to complete them. If you lose too much health, your character will die and lose a level.
 
 ![Habitica Dailies UI](./habitica-dailies.jpg)
 
-- **Todos**. The tasks you do once or rarely. Long term or more complex todos can be broken down with checklists. You gain
+- **Todos**. The tasks you do once or rarely. Long term or more complex todos can be broken down with checklists. You gain experience points and gold by doing todos.
 
 ![Habitica Todos UI](./habitica-todos.jpg)
 
-- **Rewards**. It's important to reward yourself for the hard work you did. You can buy rewards with in-app earned gold and rewards are ranging from character equipment like swords, hats, etc to custom rewards that you can define.
+- **Rewards**. You can buy rewards with in-app earned gold and rewards are ranging from character equipment like swords, hats, etc to custom rewards that you can define.
 
 ![Habitica Rewards UI](./habitica-rewards.jpg)
 
-They have a great [wiki page](https://habitica.fandom.com/wiki/Habitica_Wiki) and you can interact with your character on the go with either [iOS](https://apps.apple.com/us/app/habitica-gamified-taskmanager/id994882113) or [Android app](https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica&hl=en).
+Habitica has a great [wiki page](https://habitica.fandom.com/wiki/Habitica_Wiki) and you can interact with your character on the go with either [iOS](https://apps.apple.com/us/app/habitica-gamified-taskmanager/id994882113) or [Android app](https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica&hl=en).
 
 ### Resources
 
