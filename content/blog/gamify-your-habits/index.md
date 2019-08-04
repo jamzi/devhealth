@@ -4,7 +4,7 @@ date: "2019-08-04T08:12:03.284Z"
 description: One experience point at a time.
 ---
 
-> Habits are routine behaviors done regularly. They are recurrent and often unconscious patterns of behavior and are acquired through frequent repetition. Many of these are unconscious as we don’t even realize we are doing them (MakeOrBreakHabits.com).
+> Habits are routine behaviours done on a regular basis. They are recurrent and often unconscious patterns of behaviour and are acquired through frequent repetition. Many of these are unconscious as we don’t even realise we are doing them (MakeOrBreakHabits.com).
 
 In a great book called [The Power of Habit](https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X), Charles Duhigg tells us that
 about 45% of the decisions we made in our daily lives are habits.
