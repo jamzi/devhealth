@@ -13,7 +13,7 @@ To excel at forming habits, you need to train your **willpower**, which is like 
 
 ### The Marshmallow Experiment
 
-Willpower and successful habit performance are tightly coupled. Stanford University performed a [Marshallow experiment](https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment), where they offered children a choice of a small reward immediately in the form of a marshmallow or multiple rewards if they waited for a short period of time. Only a few children managed to resist the urge of instant gratification and delicious marshmallows.
+Willpower and successful habit performance are tightly coupled. Stanford University performed a [Marshmallow experiment](https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment), where they offered children a choice of a small reward immediately in the form of a marshmallow or multiple rewards if they waited for a short period of time. Only a few children managed to resist the urge of instant gratification and delicious marshmallows.
 
 In the follow-up study on these children, they found that the ones that managed to wait for the second marshmallow had better success in education and other life outcomes.
 
