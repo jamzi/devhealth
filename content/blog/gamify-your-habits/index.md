@@ -1,6 +1,6 @@
 ---
 title: Gamify your habits
-date: "2019-08-03T08:12:03.284Z"
+date: "2019-08-04T08:12:03.284Z"
 description: One experience point at a time.
 ---
 
