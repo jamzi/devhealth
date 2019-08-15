@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `DevHealth`,
     author: `Janez Čadež`,
-    description: `Improving mental health, avoiding burnout and practicing self-care.`,
+    description: `Articles about mental health, productivity and all things related to self-improvement.`,
     siteUrl: `https://devhealth.io`,
     githubUsername: "jamzi",
     githubRepo: "devhealth",
