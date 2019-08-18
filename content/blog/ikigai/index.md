@@ -21,7 +21,7 @@ This is a place where there are more centenarians than anywhere in the world. Th
 
 ![Okinawa map](./okinawa-map.jpg)
 
-In the book Blue Zones, Dan talks with the elders in the villages and they talk about a purpose in life called Ikigai.
+In the book The Blue Zones, Buettner talks with the elders in the villages and they talk about a purpose in life called Ikigai.
 
 > The term ikigai compounds two Japanese words: iki (生き) meaning "life" and kai (甲斐) meaning "to be worthwhile". It can be interpreted as "a reason for living", "meaning for life" or as they like to explain it "a reason to get up in the morning"
 
