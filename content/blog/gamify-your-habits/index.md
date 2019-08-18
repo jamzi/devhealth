@@ -6,7 +6,7 @@ description: One experience point at a time.
 
 > Habits are routine behaviours done on a regular basis. They are recurrent and often unconscious patterns of behaviour and are acquired through frequent repetition. Many of these are unconscious as we don’t even realise we are doing them (MakeOrBreakHabits.com).
 
-In a great book called [The Power of Habit](https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X), Charles Duhigg tells us that
+In a great book called _[The Power of Habit](https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X)_, Charles Duhigg tells us that
 about 45% of the decisions we made in our daily lives are habits.
 
 To excel at forming habits, you need to train your **willpower**, which is like a muscle. Performing small steps that eventually develop into a habit will reap the most benefits.
