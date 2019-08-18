@@ -31,7 +31,7 @@ Ikigai is a unique intersection between what you are good at and what you love. 
 
 They connect this sense of purpose with being present in the moment and having fun ("Don't worry, be happy" attitude).
 
-This is quite different from most people living in more common societies, where individuals are suffering from different forms of existential crises. We have better living conditions and education than our parents and grandparents, but people still don't what to do in life and often worry too much.
+This is quite different from most people living in common societies, where individuals are suffering from different forms of existential crises. We have better living conditions and education than our parents and grandparents, but people still don't what to do in life.
 
 ### Finding your Ikigai
 
