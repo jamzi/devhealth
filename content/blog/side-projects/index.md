@@ -1,28 +1,28 @@
 ---
 title: Learning and earning with side projects
-date: "2019-09-01T22:12:03.284Z"
-description: Journey toward financial freedom
+date: "2019-09-08T22:12:03.284Z"
+description: Journey toward financial freedom.
 ---
 
 > A side-project is something that you are doing aside from your main objective or job (englishbaby.com).
 
-You want to learn new programming languages or libraries that you don't use in your main job. What better than create a small side project, where you can test or apply these. It's quite different from your main job, as there is not so much pressure, deadlines and it's much more rewarding and fun.
+You want to learn new programming languages or libraries that you don't use in your main job. What better way than test and apply these than to create a small side project. Side projects are different than your main job, as there is not that much pressure or deadlines and crafting something on the side can be rewarding and fun.
 
-Launching side projects is not just about development. You also see other aspects of business like advertising, project management, customer support and so on.
+As a software developer, know that launching side projects is not just about writing code. You also see other aspects of business like advertising, project management, customer support and so on.
 
 Gmail and Craigslist, now hugely popular online service, started as a side project.
 
-> To successfully work on a side project, you need to allocate some free time. It's best to invest regular daily time block, like 30 minutes in the morning or evening to build the consistency.
+> To successfully work on a side project, you need to allocate some free time. It's best to invest regular daily time block, like 30 minutes in the morning or evening to build consistency and produce fast results.
 
 ### Benefits
 
 - **Learning new things**. You can learn a lot about a certain domain or technology by working on a side project. Don't worry about the initial quality of the work you produce. You'll learn a better way of doing things or a new pattern and go back and rework the project.
-- **Earning some extra cash**. If your idea is successful and you attract customers, you can start monetizing your idea. Placing ads on the page, setting up subscriptions are ideas on how to get some side income. If you solve a problem for people and have found a good market fit, users will be willing to pay for the product/service.
-- **Practice creating things**. Be the creator. By being an active creator, not consumer, you'll be in an advantageous position. Spending 30 minutes daily on building a side project will be tougher, but will make you feel much better in the long term than watching 30 minutes of Netflix.
+- **Earning some extra cash**. If your idea is successful and you attract customers, you can start monetizing your idea. Placing ads on the page, setting up subscriptions are some ideas on how to get side income. If you solve a problem for people and have found a good market fit, users will be willing to pay for the product or service.
+- **Practice creating things**. Be the creator. By being an active creator, not consumer, you'll automatically fall into an advantageous position. Spending 30 minutes daily building a side project will be tougher, but will make you feel much better than watching 30 minutes of Netflix.
 
-My idea toward side projects is to try to research and launch a few products, see what catches on and eventually produce a few products that are monetized and offer a bit of passive income.
+My idea toward side projects is to try to research and launch a few products. You will see what catches on and eventually produce a product that is useful to the customer.
 
-Having multiple income streams (not just from your job) is a good idea, as diversifying your earning reduces the risk of your job not working out and losing all the recurring income.
+By earning money from multiple projects, not just your job, is a really good idea. Diversifying your earning reduces the risk of your job not working out and losing all the recurring income.
 
 You never know, your side project could replace your main job and become a good business.
 
@@ -30,18 +30,18 @@ You never know, your side project could replace your main job and become a good 
 
 Your ideas may fail, but this is completely normal.
 
-You need to have boundaries so that your side project doesn't interfere with other commitments or talk to your family that this is something you want to pursue, so they don't think you are ignoring them and don't want to spend time with them.
+You need to have boundaries so that your side project doesn't interfere with other commitments. Talk to your family and explain that this is something you want to pursue and work on for a few hours per week. This way, they will understand that you are not ignoring them or don't want to spend time with them.
 
 ### How to plan out a side project
 
-Similar to projects in your main job, your side project too needs a clear and defined goal.
+Similar to your main job projects, your side hustle needs a clear and defined goal too.
 
 - **Idea**. It could be something very niche or a hobby you are interested in. It doesn't have to be a completely new thing, you could just improve the existing system or solve a specific problem.
 - **Find out your target audience and ask for feedback**. You can find answers on Reddit, forums, Facebook Groups, etc. Get feedback from potential customers before you start implementing the idea.
 
 > I have seen so many startups and side projects fail because of the lack of need for a product or a service. Something useful to you doesn't mean it's useful for everyone.
 
-- **MVP (minimum viable product)**. Don't implement every possible feature. Implement only the most essential feature first and get feedback on it. Release MVP as soon as possible.
+- **MVP (Minimum Viable Product)**. Don't implement every possible feature. Implement only the most essential feature first and get feedback on it. Release MVP as soon as possible.
 
 ![MVP](./mvp.png)
 
@@ -55,7 +55,7 @@ Similar to projects in your main job, your side project too needs a clear and de
 
 - https://doist.com/blog/how-to-keep-side-projects-moving-forward/ (The 4 Secrets to Successful Side Projects)
 
-- https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp
+- https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp (Making sense of MVP (Minimum Viable Product) – and why I prefer Earliest Testable/Usable/Lovable)
 
 ### Images
 
