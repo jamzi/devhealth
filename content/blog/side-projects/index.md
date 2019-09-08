@@ -1,24 +1,24 @@
 ---
 title: Learning and earning with side projects
 date: "2019-09-08T22:12:03.284Z"
-description: Journey toward financial freedom.
+description: A journey toward financial freedom.
 ---
 
 > A side-project is something that you are doing aside from your main objective or job (englishbaby.com).
 
 You want to learn new programming languages or libraries that you don't use in your main job. What better way than test and apply these than to create a small side project. Side projects are different than your main job, as there is not that much pressure or deadlines and crafting something on the side can be rewarding and fun.
 
-As a software developer, know that launching side projects is not just about writing code. You also see other aspects of business like advertising, project management, customer support and so on.
+As a software developer, launching side projects is not just about writing code. You also see other aspects of business like advertising, project management, customer support and so on.
 
 Gmail and Craigslist, now hugely popular online service, started as a side project.
 
-> To successfully work on a side project, you need to allocate some free time. It's best to invest regular daily time block, like 30 minutes in the morning or evening to build consistency and produce fast results.
+> To successfully work on a side project, you need to allocate some free time. It's best to invest regular daily time blocks, like 30 minutes in the morning or evening to build consistency and produce fast results.
 
 ### Benefits
 
 - **Learning new things**. You can learn a lot about a certain domain or technology by working on a side project. Don't worry about the initial quality of the work you produce. You'll learn a better way of doing things or a new pattern and go back and rework the project.
 - **Earning some extra cash**. If your idea is successful and you attract customers, you can start monetizing your idea. Placing ads on the page, setting up subscriptions are some ideas on how to get side income. If you solve a problem for people and have found a good market fit, users will be willing to pay for the product or service.
-- **Practice creating things**. Be the creator. By being an active creator, not consumer, you'll automatically fall into an advantageous position. Spending 30 minutes daily building a side project will be tougher, but will make you feel much better than watching 30 minutes of Netflix.
+- **Practice creating things**. Be the creator. By being an active creator, not a consumer, you'll automatically fall into an advantageous position. Spending 30 minutes daily building a side project will be tougher, but will make you feel much better than watching 30 minutes of Netflix.
 
 My idea toward side projects is to try to research and launch a few products. You will see what catches on and eventually produce a product that is useful to the customer.
 
