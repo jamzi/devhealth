@@ -6,7 +6,7 @@ description: TODo
 
 The company I work for just moved into new offices and there are two TVs in the main area where we sit that don't serve any purpose. We were discussing what should we display on these TVs. Usually, these TVs can be used to display build status of an app, but we are an agency and we work on multiple projects.
 
-Then, we got an idea to display daily menus from nearby restaurants to help us decide what to eat for lunch. The scraper would go to each restaurant website and get the contents of daily menu to help us figure out what to eat.
+Then, we got an idea to display daily menus from nearby restaurants to help us decide what to eat for lunch. The scraper would go to each restaurant website and get the contents of a daily menu to help us figure out what to eat.
 
 Since it sounded like a cool idea and I want to build a few [side projects](https://devhealth.io/side-projects/), I quietly set out to build an MVP version of the idea.
 
@@ -14,7 +14,7 @@ At the end of the post, I'll share a link to GitHub, where you can see or re-use
 
 ### How do you do web scraping?
 
-With no knowledge of web scraping tools or libraries, but a decent knowledge of JavaScript, I started querying Google for resturant websites. I gathered popular resturants that coworkers were going out to lunch and inspected their websites. Most of these sites were static, meaning no JavaScript was required to render initial content. This was great news. because I wanted to keep the first version as simple as possible.
+With no knowledge of web scraping tools or libraries, but a decent knowledge of JavaScript, I started querying Google for restaurant websites. I gathered popular restaurants that coworkers were going out to lunch and inspected their websites. Most of these sites were static, meaning no JavaScript was required to render initial content. This was great news. because I wanted to keep the first version as simple as possible.
 
 ### Tech stack
 
@@ -26,7 +26,7 @@ I also needed a frontend part to display the restaurants and menu items. Since I
 
 ![Monorepo file structure](./file-structure.png)
 
-Company called Zeit, creator of NextJS, also offers a deployment solution called Zeit Now. It's a CDN + Serverless offer and works well with NextJS. It deploys both frontend and backend with a single command and you can hook up your Git repository to deploy every time you push your changes to a branch.
+A company called Zeit, creator of NextJS, also offers a deployment solution called Zeit Now. It's a CDN + Serverless offer and works well with NextJS. It deploys both frontend and backend with a single command and you can hook up your Git repository to deploy every time you push your changes to a branch.
 
 ### Scraping is a dirty job
 
@@ -43,7 +43,7 @@ I deployed and presented the first version of the app to coworkers.
 
 I am thankful that I got positive feedback from coworkers, who were then using my app in the following days.
 
-The first request I got for the scraper was to support another popular restaurant. The issue was that this resturant was that it's site was not completely static, but generated a menu dynamically with JavaScript. This meant that we cannot just get the page content with an Axios HTTP request, but we needed to load the page in a browser-like environment and wait for the JS to load before getting the HTML content.
+The first request I got for the scraper was to support another popular restaurant. The issue was that this restaurant was that its site was not completely static, but generated a menu dynamically with JavaScript. This meant that we cannot just get the page content with an Axios HTTP request, but we needed to load the page in a browser-like environment and wait for the JS to load before getting the HTML content.
 
 I searched the web for answers to this and found that the Google team released a tool called Puppeteer. It's a NodeJS library that allows you to control web browser in a headless environment and it's perfect for running on the server or in the command line.
 
@@ -59,7 +59,7 @@ Our problem with a site not displaying special characters was fixed just by usin
 
 ### It's slow!
 
-With using Puppeteer in the app, I noticed an increase in time to get back scraped data. Puppeteer runs a Chrome instance and opens pages individually. The issue was especially noticable with our JavaScript-powered restaurant, where we had to wait for a certain element to be present on the page before we could scrape the page.
+With using Puppeteer in the app, I noticed an increase in time to get back scraped data. Puppeteer runs a Chrome instance and opens pages individually. The issue was especially noticeable with our JavaScript-powered restaurant, where we had to wait for a certain element to be present on the page before we could scrape the page.
 
 Deploying the current version to Zeit Now, I often got runtime errors and when I checked it, it said the serverless function timed out. Zeit Now has a limit of 10s execution time per free tier function.
 
@@ -69,7 +69,7 @@ I searched for solutions online and found out that you can disable certain reque
 
 We had to use another approach, different than executing all web scrapers together in one function.
 
-Instead of scraping all the restaurants together in a serverless function, I created a common function where you just passed the restaurant name as a query parameter. The function than runs Puppeteer, visits the site and scrapes the content.
+Instead of scraping all the restaurants together in a serverless function, I created a common function where you just passed the restaurant name as a query parameter. The function then runs Puppeteer, visits the site and scrapes the content.
 
 On the frontend, we now do multiple requests and we treat responses individually, as we don't need to wait for other restaurants. This greatly reduces the time it takes to execute a function and it also improves loading perception, as we can add loaders to individual restaurants.
 
@@ -81,11 +81,11 @@ Zeit Now supports lambda response caching, which I leveraged and set it up to ca
 
 ### Overview
 
-I'm pretty happy with current tech stack and the functionallity of the app. It's great to have a small monorepo and a simple deployment proccess using Zeit Now.
+I'm pretty happy with current tech stack and the functionality of the app. It's great to have a small monorepo and a simple deployment process using Zeit Now.
 
 ![Food scraper](./food-scraper.png)
 
-I can also easily add or remove restaurants and write custom scraper for each one.
+I can also easily add or remove restaurants and write a custom scraper for each one.
 
 If you want to check out the project, you can find it on [GitHub](....).
 
