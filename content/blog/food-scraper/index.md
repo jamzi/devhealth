@@ -87,7 +87,7 @@ I'm pretty happy with current tech stack and the functionality of the app. It's 
 
 I can also easily add or remove restaurants and write a custom scraper for each one.
 
-If you want to check out the project, you can find it on [GitHub](....).
+If you want to check out the project, you can find it on [GitHub](https://github.com/jamzi/food-scraper).
 
 #### Resources
 
