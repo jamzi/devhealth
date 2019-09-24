@@ -1,7 +1,7 @@
 ---
-title: Web scraping app for lunch options in nearby restaurants
+title: Web scraping with JavaScript
 date: "2019-09-22T22:12:03.284Z"
-description: TODo
+description: Building daily food menu app using NextJS, Puppeteer and Zeit Now.
 ---
 
 The company I work for just moved into new offices and there are two TVs in the main area where we sit that don't serve any purpose. We were discussing what should we display on these TVs. Usually, these TVs can be used to display build status of an app, but we are an agency and we work on multiple projects.
