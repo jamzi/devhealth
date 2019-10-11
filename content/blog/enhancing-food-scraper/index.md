@@ -64,3 +64,8 @@ In my main work project, we switched completely to TypeScript as the project gre
 Like any open-source project, documentation is something that differentiates an average side project from a great one. I intend to document the process of forking the repository and adding your restaurants. This way, people can tailor this project to their own needs. Maybe I'll also add some notes on how to deploy to the Zeit Now hosting, as it has proven useful.
 
 You are more than welcome to join the project on GitHub, raise an issue or fork your version of the food scraper.
+
+### Resources
+
+- https://food-scraper.jamzi.now.sh (Food Scraper app)
+- https://github.com/jamzi/food-scraper (GitHub repository)
