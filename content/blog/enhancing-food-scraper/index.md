@@ -1,6 +1,6 @@
 ---
 title: Enhancing Food scraper side project with user feedback
-date: "2019-10-13T22:12:03.284Z"
+date: "2019-10-14T22:12:03.284Z"
 description: Fail until you don't.
 ---
 
