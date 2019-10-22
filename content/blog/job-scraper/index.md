@@ -1,12 +1,12 @@
 ---
 title: Automating job search with JavaScript
 date: "2019-10-27T22:12:03.284Z"
-description: Building student job scraper with NextJS, Cheerio and Zeit Now.
+description: Building student job scraper with NextJS, Cheerio, and Zeit Now.
 ---
 
 Students in my country use the e-Študentski servis web site to get short-term or long-term jobs. The site supports filtering by type of work, location, and other parameters. It also supports being subscribed to a mailing list for new jobs.
 
-The issue with their mailing list is that it doesn't support granular selection of the job listings you want to be notified of. For example, it's not possible to be notified just of short term jobs in the main city which has an hourly rate of more than 6 euros.
+The issue with their mailing list is that it doesn't support a granular selection of the job listings you want to be notified of. For example, it's not possible to be notified just of short term jobs in the main city which has an hourly rate of more than 6 euros.
 
 I decided to create my own new job listings notifier using JavaScript, Zeit Now and Gmail.
 
@@ -34,7 +34,7 @@ Each job listing has an id field and when the scraper is run, we save the latest
 
 ### Scraping job listings
 
-Since the student jobs page is generated on the backend, we can easily just use an Axios XHR library to get the content of the page. This is in contrast to running the whole browser environment with Puppeteer for JS rendered websites, like we did in our previous [Food scraper project](https://devhealth.io/food-scraper/).
+Since the student jobs page is generated on the backend, we can easily just use an Axios XHR library to get the content of the page. This is in contrast to running the whole browser environment with Puppeteer for JS rendered websites, as we did in our previous [Food scraper project](https://devhealth.io/food-scraper/).
 
 ### Knowing what to send to the user
 
@@ -42,7 +42,7 @@ We need to know, which is the latest job posting that the user saw. This is why 
 
 ### Cron jobs
 
-In my previous scraping projects, I was using [EasyCron](http://easycron.com), where you have a free plan, but it's limited and you need to renew it every month. I searched for alternatives and found [cron-job.org](https://cron-job.org). This is a free service and you can specify cron job options in detail. I have set it up to trigger every 15 minutes and it also support showing the response of a cron job.
+In my previous scraping projects, I was using [EasyCron](http://easycron.com), where you have a free plan, but it's limited and you need to renew it every month. I searched for alternatives and found [cron-job.org](https://cron-job.org). This is a free service and you can specify cron job options in detail. I have set it up to trigger every 15 minutes and it also supports showing the response of a cron job.
 
 Initially, I had some issues calling the scrape function, which would return all the scraped data. The cron job would fail because of the large response data. I changed the endpoint for scraping to just return status code and it's been working perfectly ever since.
 
@@ -50,7 +50,7 @@ Initially, I had some issues calling the scrape function, which would return all
 
 There are multiple ways to notify users about some new content. There are good old emails, push notifications, etc. I was first looking at email services like SendGrid. It's a nice service, but it requires you to verify your business and I just wanted to piece something together to test it on a side project.
 
-Then I thought about push notifications, which are a more modern and direct way to engage with a user. This also has some drawbacks, as web version of push notifications (https://caniuse.com/#feat=push-api) is not supported on Safari. This means that I could not work with iOS mobile users.
+Then I thought about push notifications, which are a more modern and direct way to engage with a user. This also has some drawbacks, as the web version of push notifications (https://caniuse.com/#feat=push-api) is not supported on Safari. This means that I could not work with iOS mobile users.
 
 This was overwhelming, so I took a step back and re-evaluated the situation. Email is probably the only suitable option, but where to find a good free provider to use. And then I thought, I am using Gmail for my personal and work account. Maybe I can just create a new Gmail account for the job scraper service and send emails from there.
 
@@ -62,7 +62,7 @@ In the backend code, I used the Nodemailer package to set up Gmail email sending
 
 I structured the project as a monorepo and deployed it to the Zeit Now service.
 
-When I set up MongoDB and Gmail, I had to use API keys and passwords to access the service. These keys are best kept in the .env file, which is excluded to the version control. In Zeit Now deployments, you can specify environment variables in the `now.json` file and add them to the service via the `now secrets add` command. This way, only your development environment and deployment know about these keys and they are hidden from the user.
+When I set up MongoDB and Gmail, I had to use API keys and passwords to access the service. These keys are best kept in the .env file, which is excluded from the version control. In Zeit Now deployments, you can specify environment variables in the `now.json` file and add them to the service via the `now secrets add` command. This way, only your development environment, and deployment know about these keys and they are hidden from the user.
 
 ![Now Secrets](./now-secrets.png)
 
