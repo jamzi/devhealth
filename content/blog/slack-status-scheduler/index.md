@@ -6,17 +6,17 @@ description: TODO description
 
 ### Idea
 
-I work from home one per week and on the team, we communicate this via the Slack status. You can use the predefined "Working remotely" status or define your own. The issue is that I always forget to set it, despite having a routine of working from home. To help with this, I decided to build an automatic Slack status scheduler that would do this for me once per week.
+At work, we use Slack for communication and when working from home, I'll just set the status to let my coworkers know that I'm remote. You can set the predefined status or define your own in the Slack app. The issue is that I always forget to set it and to help with this, I decided to build an automatic Slack status scheduler that would do this for me.
 
 ![Slack set status](./slack-status-set.png)
 
-The second benefit of having such a system is that I can also schedule deep work time every day for a few hours, where I block the notifications and set the status to something like "Deep work, will reply soon". This way, I avoid the pitfall of always checking the messages on Slack and being distracted.
+The second benefit of such a system is that I can also schedule deep work time every day for a few hours, where I block the notifications and set the status to something like "Deep work, will reply soon". It proved itself useful as I can focus on the task at hand and check all the new messages in a batch once I'm done.
 
-You can check it out at // TODO: add app link
+If you want to be more productive, be sure to check the app out at // TODO: add link.
 
 ### Target audience
 
-This app was created for the users of the Slack messaging platform. It is especially targeted for people who are conscious of the fact that Slack brings a lot of noise into your work life if you are not disciplined to minimize the distractions.
+The app was created for the users of the Slack messaging platform. It is especially targeted for people who are conscious of the fact that Slack can bring a lot of noise into your work life if you are not disciplined to minimize the distractions.
 
 It is also useful for people, who occasionally work from home and would like to set the status automatically every week.
 
@@ -26,9 +26,9 @@ Slack has an app directory, where you can browse a ton of apps and integrations.
 
 ![Slack app directory](./slack-app-directory.png)
 
-I found a product called [Don't Interrupt](http://dontinterrupt.app/), where you can schedule work hours and it will display the status for hours outside this time window. The app offers a great user experience if you need this kind of behavior.
+I found a similar product called [Don't Interrupt](http://dontinterrupt.app/), where you can schedule work hours and it will display the status for hours outside of this time window. The app offers a great user experience if you need this kind of behavior.
 
-A lot of apps that control the Slack status integrate with your calendar and display "In a meeting" during your events. This is great, but I wanted to write something specific and optionally turn on the Do Not Disturb feature.
+A lot of apps that control the Slack status integrate with your calendar and display "In a meeting" during your events. This is great, but I wanted to write custom status and optionally turn on the Do Not Disturb feature.
 
 ### Tech stack
 
@@ -46,7 +46,7 @@ The scheduler is the heart of the application. When you create a new schedule on
 
 ![AgendaJS code](./agenda-code.png)
 
-AgendaJS also offers some plugins, like Agendash to visualize the jobs in the system.
+AgendaJS also offers some plugins, one of them being Agendash, which visualizes the jobs in the system.
 
 ![Agendash](./agendash.png)
 
@@ -54,20 +54,20 @@ AgendaJS also offers some plugins, like Agendash to visualize the jobs in the sy
 
 To integrate your app with Slack, you need to create a new app on https://api.slack.com/. To be able to change the user's status and Do Not Disturb setting, you need to add `users.profile:write` and `dnd:write` scopes.
 
-In the AgendaJS code, I'm using the Slack Web API for NodeJS, which provides a nice wrapper for calling the Slack server.
+I'm using the Slack Web API for NodeJS, which provides a nice wrapper for calling the Slack server.
 
-// TODO: explain that instead of using two cron jobs (one to set the status and one to clear it), you can use the expiration field when setting a user status on Slack. This applies to set DnD as well.
+The initial idea was to set two cron jobs for every schedule, one for setting the schedule and one for clearing it. This is not necessary, as the Slack API support adding expiration date. When you submit a new schedule, I'll calculate the duration of the schedule and clear it automatically at the end of the period.
 
 ![Slack API code](./slack-code.png)
 
 #### Hosting
 
-The frontend is hosted on Zeit Now and the Scheduler is deployed as a managed NodeJS app on Google App Engine.
+The frontend is hosted on Zeit Now and the Scheduler backend is deployed as a managed NodeJS app on Google App Engine.
 
-In my previous projects, I've used serverless architecture for backend, but it wouldn't work so well in this case, as cron jobs are running at every possible hour and the server needs to run continuously. This still falls under the free tier on Google Cloud platform for now. If you are new to this platform, you can leverage the free [\$300 dollar offer for new customers](https://cloud.google.com/free/).
+In my previous projects, I've used serverless architecture for backend, but it wouldn't work so well in this case, as the server for cron jobs needs to run continuously. The usage of the Scheduler backend still falls under the free tier on Google Cloud platform for now. If you are new to the Google Cloud Platform, you can leverage the free [\$300 dollar offer for new customers](https://cloud.google.com/free/).
 
-I also used MongoDB Atlas free hosting to store the cron jobs.
+For the database, I used MongoDB and deployed it to their free MongoDB Atlas hosting.
 
 ### Overview
 
-TODO: Open source it (if there will be a lot of traffic, we can make a premium version (hosted))
+If you want to see the code or contribute to the project, feel free to check out the code at // TODO: github link.
