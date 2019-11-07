@@ -6,13 +6,13 @@ description: TODO description
 
 ### Idea
 
-At work, we use Slack for communication and when working from home, I'll just set the status to let my coworkers know that I'm remote. You can set the predefined status or define your own in the Slack app. The issue is that I always forget to set it and to help with this, I decided to build an automatic Slack status scheduler that would do this for me.
+At work, we use Slack for communication and when working from home, I'll just set the status to let my coworkers know that I'm remote.
 
 ![Slack set status](./slack-status-set.png)
 
-The second benefit of such a system is that I can also schedule deep work time every day for a few hours, where I block the notifications and set the status to something like "Deep work, will reply soon". It proved itself useful as I can focus on the task at hand and check all the new messages in a batch once I'm done.
+In the Slack app, you can set the predefined status or define your own. The issue is that I always forget to set it and to help with this, I decided to build an automatic Slack status scheduler that would do this for me.
 
-If you want to be more productive, be sure to check the app out at // TODO: add link.
+The second benefit of such a system is that I can also schedule deep work time every day for a few hours, where I block the notifications and set the status to something like "Deep work, will reply soon". It proved itself useful as I can focus on the task at hand and check all the new messages in a batch once I'm done.
 
 ### Target audience
 
@@ -34,7 +34,7 @@ A lot of apps that control the Slack status integrate with your calendar and dis
 
 #### Web interface
 
-The frontend of the app is written in NextJS. It supports signing in with Slack and adding or deleting schedules. On the first page, it will list the schedules by day if you have any.
+The frontend of the app is written in NextJS. It supports signing in with Slack and adding or deleting schedules. On the first page, it will list your active schedules.
 
 You can create a new schedule by clicking on the add button and following a three-step process. The first is adding a name, the second one is selecting the active hours when the status is displayed and the final step is choosing the status text and emoji.
 
@@ -56,7 +56,7 @@ To integrate your app with Slack, you need to create a new app on https://api.sl
 
 I'm using the Slack Web API for NodeJS, which provides a nice wrapper for calling the Slack server.
 
-The initial idea was to set two cron jobs for every schedule, one for setting the schedule and one for clearing it. This is not necessary, as the Slack API support adding expiration date. When you submit a new schedule, I'll calculate the duration of the schedule and clear it automatically at the end of the period.
+The initial idea was to set two cron jobs for every schedule, one for setting the schedule and one for clearing it. This is not necessary, as the Slack API supports adding an expiration date. When you submit a new schedule, I'll calculate the duration of the schedule and clear it automatically at the end of the period.
 
 ![Slack API code](./slack-code.png)
 
@@ -69,5 +69,7 @@ In my previous projects, I've used serverless architecture for backend, but it w
 For the database, I used MongoDB and deployed it to their free MongoDB Atlas hosting.
 
 ### Overview
+
+Be more productive and check out the app at // TODO: add link.
 
 If you want to see the code or contribute to the project, feel free to check out the code at // TODO: github link.
