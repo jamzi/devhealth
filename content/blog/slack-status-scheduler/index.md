@@ -1,7 +1,7 @@
 ---
-title: Slack Status Scheduler TODO better title
+title: Slack Status Scheduler
 date: "2019-11-10T22:12:03.284Z"
-description: TODO description
+description: Automating Slack status and Do Not Disturb preference.
 ---
 
 ### Idea
