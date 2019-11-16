@@ -1,16 +1,16 @@
 ---
-title: Slack Status Scheduler
+title: Status Scheduler for Slack
 date: "2019-11-10T22:12:03.284Z"
 description: Automating Slack status and Do Not Disturb preference.
 ---
 
 ### Idea
 
-At work, we use Slack for communication and when working from home, I'll just set the status to let my coworkers know that I'm remote.
+At work, we use Slack for communication and when working from home, I just set the status manually to let my coworkers know that I'm remote.
 
 ![Slack set status](./slack-status-set.png)
 
-In the Slack app, you can set the predefined status or define your own. The issue is that I always forget to set it and to help with this, I decided to build an automatic Slack status scheduler that would do this for me.
+In the Slack app, you can set the predefined status or define your own. The issue is that I always forget to set it. To help with this, I decided to build an automatic status scheduler for Slack that would do this for me.
 
 The second benefit of such a system is that I can also schedule deep work time every day for a few hours, where I block the notifications and set the status to something like "Deep work, will reply soon". It proved itself useful as I can focus on the task at hand and check all the new messages in a batch once I'm done.
 
@@ -18,15 +18,15 @@ The second benefit of such a system is that I can also schedule deep work time e
 
 The app was created for the users of the Slack messaging platform. It is especially targeted for people who are conscious of the fact that Slack can bring a lot of noise into your work life if you are not disciplined to minimize the distractions.
 
-It is also useful for people, who occasionally work from home and would like to set the status automatically every week.
+It is also useful for people who occasionally work from home and would like to set the status automatically every week.
 
 ### Competition
 
-Slack has an app directory, where you can browse a ton of apps and integrations. I looked for similar products and couldn't find one that would do the specific things I described above.
+Slack has an app directory, where you can browse a ton of apps and integrations. I was looking for similar products but couldn't find one that would do the specific things I described above.
 
 ![Slack app directory](./slack-app-directory.png)
 
-I found a similar product called [Don't Interrupt](http://dontinterrupt.app/), where you can schedule work hours and it will display the status for hours outside of this time window. The app offers a great user experience if you need this kind of behavior.
+The closest product that I could find is called [Don't Interrupt](http://dontinterrupt.app/), where you can schedule work hours and it will display the status for hours outside of this time window. The app offers a great user experience if you need this kind of behavior.
 
 A lot of apps that control the Slack status integrate with your calendar and display "In a meeting" during your events. This is great, but I wanted to write custom status and optionally turn on the Do Not Disturb feature.
 
@@ -34,15 +34,19 @@ A lot of apps that control the Slack status integrate with your calendar and dis
 
 #### Web interface
 
-The frontend of the app is written in NextJS. It supports signing in with Slack and adding or deleting schedules. On the first page, it will list your active schedules.
+The frontend of the app is written in NextJS. It supports signing in with Slack and adding or deleting schedules. On the first page, the app lists your active schedules.
 
-You can create a new schedule by clicking on the add button and following a three-step process. The first is adding a name, the second one is selecting the active hours when the status is displayed and the final step is choosing the status text and emoji.
+You can create a new schedule by clicking on the add button and following a three-step process:
 
-// TODO: add a screenshot of frontend
+1. add a name,
+2. select active hours when the status is displayed and
+3. choose the status text and emoji.
+
+![App screenshot](./app-screenshot.png)
 
 #### Scheduler
 
-The scheduler is the heart of the application. When you create a new schedule on the frontend, it will pass it to the scheduler which creates a cron job and persist it to the MongoDB database. I'm using the AgendaJS system for NodeJS, which provides an API to add, edit and delete cron jobs. When a cron job executes, it will execute a job that calls Slack API sets users' status and does not disturb preference.
+The scheduler is the heart of the application. When you create a new schedule on the frontend, it will pass it to the scheduler, which creates a cron job and persist it to the MongoDB database. I'm using the AgendaJS system for NodeJS, which provides an API to add, edit and delete cron jobs. When a cron job runs, it will execute a job that calls Slack API sets users' status and Do Not Disturb preference.
 
 ![AgendaJS code](./agenda-code.png)
 
@@ -56,7 +60,7 @@ To integrate your app with Slack, you need to create a new app on https://api.sl
 
 I'm using the Slack Web API for NodeJS, which provides a nice wrapper for calling the Slack server.
 
-The initial idea was to set two cron jobs for every schedule, one for setting the schedule and one for clearing it. This is not necessary, as the Slack API supports adding an expiration date. When you submit a new schedule, I'll calculate the duration of the schedule and clear it automatically at the end of the period.
+The initial idea was to set two cron jobs for every schedule, one for setting the schedule and one for clearing it. This won't be necessary, as the Slack API supports adding an expiration date. When you submit a new schedule, the app calculates the duration of the schedule and clears it automatically at the end of the period.
 
 ![Slack API code](./slack-code.png)
 
@@ -70,6 +74,6 @@ For the database, I used MongoDB and deployed it to their free MongoDB Atlas hos
 
 ### Overview
 
-Be more productive and check out the app at // TODO: add link.
+Be more productive and check out the app at https://slackscheduler.now.sh/.
 
-If you want to see the code or contribute to the project, feel free to check out the code at // TODO: github link.
+If you want to see the code or contribute to the project, feel free to check out the code at https://github.com/jamzi/slack-status-scheduler.
