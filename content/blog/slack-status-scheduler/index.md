@@ -10,7 +10,7 @@ At work, we use Slack for communication and when working from home, I just set t
 
 ![Slack set status](./slack-status-set.png)
 
-In the Slack app, you can set the predefined status or define your own. The issue is that I always forget to set it. To help with this, I decided to build an automatic status scheduler for Slack that would do this for me.
+In the [Status Scheduler for Slack app](https://slackscheduler.now.sh/), you can set the predefined status or define your own. The issue is that I always forget to set it. To help with this, I decided to build an automatic status scheduler for Slack that would do this for me.
 
 The second benefit of such a system is that I can also schedule deep work time every day for a few hours, where I block the notifications and set the status to something like "Deep work, will reply soon". It proved itself useful as I can focus on the task at hand and check all the new messages in a batch once I'm done.
 
