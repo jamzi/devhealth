@@ -1,6 +1,6 @@
 ---
 title: Status Scheduler for Slack
-date: "2019-11-10T22:12:03.284Z"
+date: "2019-11-23T22:12:03.284Z"
 description: Automating Slack status and Do Not Disturb preference.
 ---
 
